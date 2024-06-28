@@ -31,5 +31,5 @@ jobs:
         ECR_REPOSITORY: <repositoryName>
         IMAGE_TAG: <imageTag>
       run: |
-        docker build -t <imageName>:<imageTag> .
-        docker push <imageName>:<imageTag>
+        docker build -t <642451520987.dkr.ecr.af-south-1.amazonaws.com/sample-repo>:<Version1> .
+        docker push <642451520987.dkr.ecr.af-south-1.amazonaws.com/sample-repo>:<Version1>
